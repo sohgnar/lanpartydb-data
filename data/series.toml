@@ -187,6 +187,11 @@ name = "Planet Insomnia"
 country_codes = ["de"]
 
 [[series]]
+slug = "rgb-lan"
+name = "RGB LAN"
+country_codes = ["us"]
+
+[[series]]
 slug = "rofl-lan"
 name = "Ro.Fl.-LAN"
 country_codes = ["de"]
