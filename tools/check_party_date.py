@@ -3,6 +3,7 @@
 """Return error code if parties are found that are not in the past.
 
 Author: Jochen Kupperschmidt
+License: MIT
 """
 
 from collections.abc import Iterable
