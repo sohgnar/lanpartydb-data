@@ -1,0 +1,39 @@
+[project]
+name = "lanpartydb-data"
+version = "0.0.0"
+description = "Data for the OrgaTalk LAN Party Database"
+readme = "README.rst"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    { name = "Jochen Kupperschmidt", email = "homework@nwsnet.de" },
+]
+dev = [
+    "mypy>=1.14.1",
+    "ruff>=0.9.1",
+]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+no_implicit_optional = true
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.format]
+quote-style = "single"
+line-ending = "lf"
+
+[tool.ruff.lint.flake8-quotes]
+inline-quotes = "single"
+multiline-quotes = "single"
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+force-sort-within-sections = true
+lines-after-imports = 2
+order-by-type = false
+
+[tool.uv]
+required-version = ">=0.5.18"
