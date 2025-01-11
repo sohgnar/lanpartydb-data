@@ -1,6 +1,9 @@
 _default:
     @just --list
 
+fetch-contributors:
+    @python3 tools/fetch_contributors.py > data/contributors.json
+
 validate:
     @just validate-series
     @just validate-parties
