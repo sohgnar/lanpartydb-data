@@ -16,6 +16,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install just
+        run: |
+          wget -q -O - 'https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz' | tar xvz just --to-stdout > /usr/local/bin/just
+          chmod u+x /usr/local/bin/just
+
       - name: Setup cache for Taplo CLI executable
         id: cache-taplo
         uses: actions/cache@v4
@@ -30,12 +35,10 @@ jobs:
           chmod u+x /usr/local/bin/taplo
 
       - name: Validate party series TOML file
-        run: taplo lint --schema "file://"$PWD"/schemas/series.json" data/series.toml && taplo format --check data/series.toml
+        run: just validate-series
 
       - name: Validate party TOML files
-        run: |
-          shopt -s globstar
-          taplo lint --schema "file://"$PWD"/schemas/party.json" data/parties/**/*.toml && taplo format --check data/parties/**/*.toml
+        run: just validate-parties
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,5 +46,4 @@ jobs:
           python-version: "3.12"
 
       - name: Ensure that parties are in the past
-        run: |
-          python3 tools/check_party_date.py data/parties/**/*.toml
+        run: just validate-party-dates
