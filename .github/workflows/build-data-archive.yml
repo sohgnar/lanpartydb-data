@@ -22,13 +22,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install just
+        run: |
+          wget -q -O - 'https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz' | gunzip -c > /usr/local/bin/just
+          chmod u+x /usr/local/bin/just
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Fetch contributors
-        run: python3 tools/fetch_contributors.py > data/contributors.json
+        run: just fetch-contributors
 
       - name: Write commit hash to file
         run: git rev-parse --short HEAD > data/commithash.txt
