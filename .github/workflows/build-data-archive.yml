@@ -24,7 +24,8 @@ jobs:
 
       - name: Install just
         run: |
-          wget -q -O - 'https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz' | tar cvz just > /usr/local/bin/just
+          wget -q -O - 'https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz' | tar xvz just --to-stdout > /usr/local/bin/just
+          chmod u+x /usr/local/bin/just
 
       - name: Set up Python
         uses: actions/setup-python@v5
