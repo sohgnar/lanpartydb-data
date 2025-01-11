@@ -32,6 +32,8 @@ def main(filenames: list[str]) -> None:
     if parties_not_over:
         print_parties_not_in_past(parties_not_over)
         sys.exit(1)
+    else:
+        print('All party dates are OK.')
 
 
 def load_party(path: Path) -> Party:
