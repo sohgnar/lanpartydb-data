@@ -10,9 +10,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  install-tools:
-    uses: ./.github/workflows/install-tools.yml
-
   build:
     runs-on: ubuntu-latest
 
@@ -20,11 +17,34 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Install just
+        run: |
+          wget -q -O - 'https://github.com/casey/just/releases/download/1.38.0/just-1.38.0-x86_64-unknown-linux-musl.tar.gz' | tar xvz just --to-stdout > /usr/local/bin/just
+          chmod u+x /usr/local/bin/just
+
+      - name: Setup cache for Taplo CLI executable
+        id: cache-taplo
+        uses: actions/cache@v4
+        with:
+          path: /usr/local/bin/taplo
+          key: taplo-0.9.3
+
+      - name: Install Taplo CLI
+        if: steps.cache-taplo.outputs.cache-hit != 'true'
+        run: |
+          wget -q -O - 'https://github.com/tamasfe/taplo/releases/download/0.9.3/taplo-linux-x86_64.gz' | gunzip -c > /usr/local/bin/taplo
+          chmod u+x /usr/local/bin/taplo
+
       - name: Validate party series TOML file
         run: just validate-series
 
       - name: Validate party TOML files
         run: just validate-parties
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Ensure that parties are in the past
         run: just validate-party-dates
