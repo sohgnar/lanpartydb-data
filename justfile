@@ -4,10 +4,7 @@ _default:
 fetch-contributors:
     @python3 tools/fetch_contributors.py > data/contributors.json
 
-validate:
-    @just validate-series
-    @just validate-parties
-    @just validate-party-dates
+validate: && validate-series validate-parties validate-party-dates
 
 validate-series:
     @taplo lint --schema "file://"$PWD"/schemas/series.json" data/series.toml && taplo format --check data/series.toml
