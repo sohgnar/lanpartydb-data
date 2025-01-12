@@ -35,7 +35,7 @@ def _parse_contributors(
         yield {
             'github_login': contributor['login'],
             'github_avatar_url': contributor['avatar_url'],
-            'contributions': contributor['contributions'],
+            'contribution_count': contributor['contributions'],
         }
 
 
