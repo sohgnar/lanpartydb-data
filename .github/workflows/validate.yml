@@ -3,6 +3,7 @@ name: Validate data files
 on:
   push:
     paths:
+      - '.github/workflows/*.yml'
       - 'data/**/*.toml'
 
   # Allows you to run this workflow manually from the Actions tab
