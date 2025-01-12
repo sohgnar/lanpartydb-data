@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-data-archive:
     runs-on: ubuntu-latest
 
     # Grant `GITHUB_TOKEN` the necessary permissions.
