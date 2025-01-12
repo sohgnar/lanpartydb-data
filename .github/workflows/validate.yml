@@ -41,10 +41,5 @@ jobs:
       - name: Validate party TOML files
         run: just validate-parties
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Ensure that parties are in the past
         run: just validate-party-dates
