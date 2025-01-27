@@ -1,0 +1,17 @@
+slug = "federationb"
+title = "FederationB"
+organizer_entity = "CCS e.V. & BK-LAN e.V."
+start_on = 2015-10-02
+end_on = 2015-10-04
+seats = 486
+attendees = 484
+
+[location]
+name = "Kulturhalle Rödermark"
+country_code = "de"
+city = "Rödermark"
+zip_code = "63322"
+street = "Dieburger Straße 27"
+
+[links.website]
+url = "https://www.federationb.de"
