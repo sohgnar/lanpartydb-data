@@ -33,6 +33,12 @@ jobs:
       - name: Create archive
         run: tar cJf data.tar.xz data/
 
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive
+          path: data.tar.xz
+
       - name: Configure Git user
         run: |
           git config user.name "workflow"
