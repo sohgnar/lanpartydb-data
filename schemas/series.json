@@ -32,7 +32,8 @@
         },
         "required": [
           "slug",
-          "name"
+          "name",
+          "country_codes"
         ]
       }
     }
