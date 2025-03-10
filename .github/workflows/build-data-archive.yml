@@ -36,8 +36,7 @@ jobs:
       - name: Upload archive
         uses: actions/upload-artifact@v4
         with:
-          name: archive
-          path: data.tar.xz
+          path: lanpartydb-data.tar.xz
 
       - name: Configure Git user
         run: |
