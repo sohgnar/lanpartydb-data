@@ -93,7 +93,7 @@ country_codes = ["at"]
 [[series]]
 slug = "frogbyte"
 name = "Frogbyte LAN Party"
-country_code = ["it"]
+country_codes = ["it"]
 
 [[series]]
 slug = "gamers-congress"
