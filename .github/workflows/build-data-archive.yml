@@ -33,10 +33,12 @@ jobs:
       - name: Create archive
         run: tar cJf data.tar.xz data/
 
-      - name: Upload archive
+      - name: Upload archive as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: lanpartydb-data.tar.xz
+          # The archive will additionally be wrapped in a ZIP archive.
+          # This is a limitation of the `upload-artifact` action.
+          name: lanpartydb-data.tar.xz.zip
           path: data.tar.xz
 
       - name: Configure Git user
