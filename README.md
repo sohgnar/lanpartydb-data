@@ -28,6 +28,8 @@ easy to read and write by both humans and computers.
 * All party series are listed together in a single file.
   * Not all parties are part of a series, though.
 
+See [`FORMAT.md`](./FORMAT.md) for details.
+
 
 ## How to Contribute
 
