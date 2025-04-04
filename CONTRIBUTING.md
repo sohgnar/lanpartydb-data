@@ -16,4 +16,4 @@ Available libraries:
 
 | Repository | Programming Language | Supported Format Version |
 | - | - | - |
-| https://github.com/lanpartydb/lib-python | Python | 0.8 |
+| https://github.com/lanpartydb/lib-python | Python | 0.9 |
