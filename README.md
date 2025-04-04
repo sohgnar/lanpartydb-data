@@ -42,17 +42,20 @@ Available libraries to work with the data format:
 
 ## How to Contribute
 
+Do you want to add or correct data to/in this database? That's great!
+
 Everybody is invited to add public LAN parties to this database. This
 means especially organizers of those parties as they should know the
-facts of their events best. But especially for events far in the past
-whose organizer teams have disbanded long ago, anyone is welcome to add
-details before they are lost.
+facts of their events best. But for events far in the past whose
+organizer teams have disbanded long ago, anyone with the knowledge is
+welcome to add details before they are lost.
 
-New or updated data can be submitted through a pull request (PR). If
-that is not an option for you, feel free to get in touch with us and
-submit data through another channel, and potentially in another format.
+New or updated data can be submitted through a pull request (PR) on
+GitHub. If that is not an option for you, feel free to get in touch with
+us and submit data through another channel.
 
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details.
+If you have trouble to generate data in the data format described above,
+get in touch with us as well and we'll figure something out.
 
 
 ## License
