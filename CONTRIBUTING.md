@@ -14,4 +14,6 @@ See [`FORMAT.md`](./FORMAT.md) for details.
 
 Available libraries:
 
-- Python: https://github.com/lanpartydb/lib-python
+| Repository | Programming Language |
+| - | - |
+| https://github.com/lanpartydb/lib-python | Python |
