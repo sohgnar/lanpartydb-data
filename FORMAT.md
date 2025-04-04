@@ -153,45 +153,38 @@ url = "https://www.awesomelan.example/"
 
 
 ### 0.8 (2025-03-10)
-------------------
 
 * Require property `country_codes` in section `series`.
 
 
 ### 0.7 (2024-07-01)
-------------------
 
 * Added optional property `country_codes` to section `series`.
 
 
 ### 0.6 (2024-06-30)
-------------------
 
 * Required websites to be specified with the `url` property in section
   `website` instead of using `website` as a property with string value.
 
 
 ### 0.5 (2024-05-16)
-------------------
 
 * Added optional property `attendees` to section `party`.
 
 
 ### 0.4 (2024-02-14)
-------------------
 
 * Allowed `organizer_entity` to alternatively be an array with multiple
   values.
 
 
 ### 0.3 (2024-02-13)
-------------------
 
 * Made property `name` in section `location` optional.
 
 
 ### 0.2 (2024-02-09)
-------------------
 
 * Added optional flag `online` to section `party`.
 * Prohibited section `location` for online events.
@@ -199,6 +192,5 @@ url = "https://www.awesomelan.example/"
 
 
 ### 0.1 (2024-01-30)
-------------------
 
 * Created initial format.
