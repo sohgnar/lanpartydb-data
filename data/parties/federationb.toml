@@ -10,7 +10,7 @@ attendees = 484
 name = "Kulturhalle Rödermark"
 country_code = "de"
 city = "Rödermark"
-zip_code = "63322"
+postal_code = "63322"
 street = "Dieburger Straße 27"
 
 [links.website]

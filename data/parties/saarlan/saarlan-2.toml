@@ -10,7 +10,7 @@ seats = 100
 name = "Schulsporthalle Illingen"
 country_code = "de"
 city = "Illingen"
-zip_code = "66557"
+postal_code = "66557"
 street = "Schulstraße 4"
 
 [links.website]

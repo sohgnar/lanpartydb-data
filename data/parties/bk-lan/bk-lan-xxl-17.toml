@@ -10,7 +10,7 @@ seats = 300
 name = "Deutscher Michel Halle"
 country_code = "de"
 city = "Stromberg"
-zip_code = "55442"
+postal_code = "55442"
 street = "Königsberger Straße 4a"
 
 [links.website]

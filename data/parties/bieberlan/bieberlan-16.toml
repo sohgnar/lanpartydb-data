@@ -10,7 +10,7 @@ seats = 40
 name = "Bürgerhaus"
 country_code = "de"
 city = "Fischbachtal"
-zip_code = "64405"
+postal_code = "64405"
 street = "Darmstädter Str. 50A"
 
 [links.website]

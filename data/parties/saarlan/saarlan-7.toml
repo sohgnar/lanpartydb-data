@@ -10,7 +10,7 @@ seats = 160
 name = "Mühlbachhalle Schiffweiler"
 country_code = "de"
 city = "Schiffweiler"
-zip_code = "66578"
+postal_code = "66578"
 street = "Comeniusstraße 2"
 
 [links.website]

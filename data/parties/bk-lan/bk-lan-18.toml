@@ -11,7 +11,7 @@ attendees = 120
 name = "Kronenberg Halle Bretzenheim"
 country_code = "de"
 city = "Bretzenheim"
-zip_code = "55559"
+postal_code = "55559"
 street = "Winzenheimer Straße 29"
 
 [links.website]

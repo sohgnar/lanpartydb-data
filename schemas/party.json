@@ -55,7 +55,7 @@
         "city": {
           "type": "string"
         },
-        "zip_code": {
+        "postal_code": {
           "type": "string"
         },
         "street": {

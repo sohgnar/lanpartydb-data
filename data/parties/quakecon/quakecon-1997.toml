@@ -9,7 +9,7 @@ seats = 650
 name = "Holiday Inn"
 country_code = "us"
 city = "Plano"
-zip_code = "75023"
+postal_code = "75023"
 
 [links.website]
 url = "https://www.quakecon.org/"

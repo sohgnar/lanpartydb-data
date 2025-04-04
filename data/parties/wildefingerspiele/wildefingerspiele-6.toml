@@ -9,7 +9,7 @@ seats = 72
 name = "Haus der Jugend, Burgdorf"
 country_code = "de"
 city = "Burgdorf"
-zip_code = "31303"
+postal_code = "31303"
 street = "Sorgenser Str. 30"
 
 [links.website]

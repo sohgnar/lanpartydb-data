@@ -95,7 +95,7 @@ A location section *must* have:
 A location section *may* have:
 
 * The `name` of the location.
-* A `zip_code`, if the country has such a thing.
+* A `postal_code`, if the country has such a thing.
 * A `street` name and, if applicable, house number.
 * Geographic coordinates in the form of both `latitude` and `longitude`
   values.
@@ -139,7 +139,7 @@ attendees = 23
 name = "Gasthof zum Wattwurm"
 country_code = "de"
 city = "Büttenwarder"
-zip_code = "22999"
+postal_code = "22999"
 street = "Kirchweg 7"
 latitude = 54.03847
 longitude = 8.25632
@@ -150,6 +150,12 @@ url = "https://www.awesomelan.example/"
 
 
 ## Changelog
+
+
+### 0.9 (2025-04-04)
+
+* Rename property `zip_code` to generic `postal_code` in section
+  `location`.
 
 
 ### 0.8 (2025-03-10)

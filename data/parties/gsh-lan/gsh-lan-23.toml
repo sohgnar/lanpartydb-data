@@ -9,7 +9,7 @@ seats = 700
 name = "Rudolf-Harbig-Halle & Sporthalle am Hespe"
 country_code = "de"
 city = "Garbsen"
-zip_code = "30827"
+postal_code = "30827"
 street = "Ludwigstraße 5"
 
 [links.website]

@@ -8,7 +8,7 @@ end_on = 2002-08-18
 name = "Mesquite Convention Center"
 country_code = "us"
 city = "Mesquite"
-zip_code = "75149"
+postal_code = "75149"
 
 [links.website]
 url = "https://www.quakecon.org/"

@@ -10,7 +10,7 @@ attendees = 50
 name = "Tanzsporthalle Stade"
 country_code = "de"
 city = "Stade"
-zip_code = "21682"
+postal_code = "21682"
 
 [links.website]
 url = "https://www.nwsnet.de/"

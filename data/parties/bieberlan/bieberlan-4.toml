@@ -10,7 +10,7 @@ seats = 77
 name = "Bürgerhaus Brandau"
 country_code = "de"
 city = "Modautal"
-zip_code = "64397"
+postal_code = "64397"
 street = "Römerberg 29"
 
 [links.website]

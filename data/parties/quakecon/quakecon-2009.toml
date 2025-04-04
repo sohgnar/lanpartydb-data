@@ -8,7 +8,7 @@ end_on = 2009-08-16
 name = "Gaylord Texan Resort Hotel and Convention Center"
 country_code = "us"
 city = "Grapevine"
-zip_code = "76051"
+postal_code = "76051"
 
 [links.website]
 url = "https://www.quakecon.org/"

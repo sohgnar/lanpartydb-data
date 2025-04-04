@@ -9,7 +9,7 @@ seats = 218
 name = "Geschwister-Scholl-Gymnasium Berenbostel"
 country_code = "de"
 city = "Garbsen"
-zip_code = "30827"
+postal_code = "30827"
 street = "Ludwigstraße 4"
 
 [links.website]

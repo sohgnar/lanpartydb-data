@@ -10,7 +10,7 @@ seats = 93
 name = "Saalbau Richen"
 country_code = "de"
 city = "Groß-Umstadt"
-zip_code = "64823"
+postal_code = "64823"
 street = "Hauptstraße 33"
 
 [links.website]

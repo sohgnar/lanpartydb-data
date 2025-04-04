@@ -10,7 +10,7 @@ seats = 45
 name = "Gemeindesaal"
 country_code = "de"
 city = "Niedernhausen/Fischbachtal"
-zip_code = "64405"
+postal_code = "64405"
 street = "Darmstädter Str. 14"
 
 [links.website]

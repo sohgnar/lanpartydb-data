@@ -9,7 +9,7 @@ seats = 40
 name = "La Quinta Inn"
 country_code = "us"
 city = "Garland"
-zip_code = "75040"
+postal_code = "75040"
 
 [links.website]
 url = "https://www.quakecon.org/"

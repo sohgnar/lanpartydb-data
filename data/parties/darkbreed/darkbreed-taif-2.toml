@@ -10,7 +10,7 @@ seats = 106
 name = "Kinopolis Main-Taunus-Zentrum"
 country_code = "de"
 city = "Sulzbach"
-zip_code = "65843"
+postal_code = "65843"
 latitude = 50.12095
 longitude = 8.52404
 
