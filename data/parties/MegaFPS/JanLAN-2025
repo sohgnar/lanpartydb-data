@@ -1,0 +1,19 @@
+slug = "JanLan-2025"
+title = "JanLAN 2025"
+series_slug = "MegaFPS"
+organizer_entity = "MegaFPS"
+start_on = 2024-01-24
+end_on = 2024-01-26
+seats = 60
+
+[location]
+name = "Fulton Place Community Hall"
+country_code = "ca"
+city = "Edmonton"
+postal_code = "T6A3T3"
+street = "6115 Fulton Rd NW"
+latitude = 53.54648
+longitude = -113.42512
+
+[links.website]
+url = "https://www.megafps.com"
